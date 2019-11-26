@@ -5,3 +5,5 @@ This client updates the WSO2 AM_DB for the given set of APIs by modifying the AP
 First the APIs are queried from the registry for the lifecycle state=PUBLISHED.
 
 And then check for the queried APIs in the AM_DB and if the lifecycle state is not equal to PUBLISHED, then it updates the AM_API_LC_EVENT table in AM_DB database.
+
+Tested with WSO2 API-M 2.0.0 version.
